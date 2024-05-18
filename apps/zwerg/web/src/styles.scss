@@ -1,0 +1,55 @@
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons.min';
+
+body {
+  background-image: url('/assets/images/repeatable-background.png');
+  background-position: center;
+  background-size: contain;
+  color: #eee;
+}
+
+h2 {
+  margin-bottom: 2rem;
+  margin: 1.5rem 0 2rem;
+  text-align: center;
+}
+
+hr {
+  border-color: #894dff;
+  opacity: 1;
+}
+
+a {
+  color: #eee;
+}
+
+.anchor {
+  position: relative;
+  top: -64px;
+
+  @media (min-width: 768px) {
+    top: -88px;
+  }
+}
+
+.btn-primary {
+  background-color: #894dff;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  transition: background-color 250ms ease-out;
+
+  &:hover {
+    background-color: #673abf;
+  }
+
+  &:active {
+    background-color: #5c34ab !important;
+  }
+}
+
+i {
+  color: #fff;
+  font-size: 2rem;
+}

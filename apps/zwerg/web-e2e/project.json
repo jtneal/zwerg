@@ -1,0 +1,9 @@
+{
+  "name": "zwerg-web-e2e",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/zwerg/web-e2e/src",
+  "implicitDependencies": ["zwerg-web"],
+  "// targets": "to see all targets run: nx show project zwerg-web-e2e --web",
+  "targets": {}
+}
