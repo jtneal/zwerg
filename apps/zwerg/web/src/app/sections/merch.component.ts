@@ -9,20 +9,28 @@ import { MerchDto } from '@zwerg/common-dtos';
   selector: 'app-merch',
   styles: `
     a {
+      display: block;
       text-decoration: none;
-
-      &:hover h3 {
-        color: #894dff;
-      }
     }
 
     img {
+      border: 3px solid transparent;
       border-radius: 1rem;
+      transition: border-color 250ms ease-out;
+    }
+
+    a:hover img {
+      border-color: #894dff;
     }
 
     h3 {
       font-size: 1.2rem;
       margin-top: 1rem;
+      transition: color 250ms ease-out;
+    }
+
+    a:hover h3 {
+      color: #894dff;
     }
 
     p {

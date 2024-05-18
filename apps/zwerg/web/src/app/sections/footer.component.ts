@@ -92,10 +92,6 @@ import { LinkService } from '../link.service';
         justify-content: initial;
       }
     }
-
-    @media (min-width: 992px) {
-      
-    }
   `,
   template: `
     <footer class="container">

@@ -5,14 +5,16 @@ import { Component } from '@angular/core';
   imports: [],
   selector: 'app-about',
   styles: `
-    ////////////////////////////////////////////////////////////////////////////
-    // MOBILE
-    ////////////////////////////////////////////////////////////////////////////
-
     .container {
       margin-bottom: -56px;
       position: relative;
       top: -56px;
+
+      @media (min-width: 768px) {
+        margin-bottom: -72px;
+        position: relative;
+        top: -72px;
+      }
     }
 
     img {
@@ -42,18 +44,6 @@ import { Component } from '@angular/core';
 
     p {
       font-size: 1.5rem;
-    }
-
-    ////////////////////////////////////////////////////////////////////////////
-    // TABLET
-    ////////////////////////////////////////////////////////////////////////////
-
-    @media (min-width: 768px) {
-      .container {
-        margin-bottom: -72px;
-        position: relative;
-        top: -72px;
-      }
     }
   `,
   template: `
