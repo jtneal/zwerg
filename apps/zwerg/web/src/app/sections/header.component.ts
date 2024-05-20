@@ -67,7 +67,7 @@ import { LinkService } from '../link.service';
     // TABLET
     ////////////////////////////////////////////////////////////////////////////
 
-    @media (min-width: 768px) {
+    @media (min-width: 910px) {
       header {
         height: 72px;
       }
@@ -104,7 +104,7 @@ import { LinkService } from '../link.service';
     // DESKTOP
     ////////////////////////////////////////////////////////////////////////////
 
-    @media (min-width: 860px) {
+    @media (min-width: 992px) {
       nav {
         justify-content: center;
       }
