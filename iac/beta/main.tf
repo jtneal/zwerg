@@ -61,5 +61,5 @@ module "ecs" {
   security_group_id = module.security.ecs_security_group_id
   ecr_arn           = module.ecr.ecr_arn
   ecr_url           = module.ecr.ecr_url
-  app_version       = "zwerg-b75e03d"
+  app_version       = "zwerg-be5e976"
 }
