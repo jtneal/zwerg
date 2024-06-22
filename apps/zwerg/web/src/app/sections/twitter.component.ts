@@ -20,9 +20,6 @@ import { Component } from '@angular/core';
         <br />
         <a class="twitter-timeline" data-chrome="nofooter transparent" data-width="780" data-height="780" data-dnt="true" data-theme="dark" data-link-color="#894dff" href="https://twitter.com/iiizwerg?ref_src=twsrc%5Etfw">Tweets by iiizwerg</a>
       </div>
-      <!-- prettier-ignore -->
-
-      <!-- <a class="twitter-timeline" data-width="100%" data-height="1000" data-theme="light" href="https://twitter.com/iiizwerg?ref_src=twsrc%5Etfw">Tweets by iiizwerg</a> -->
     </div>
   `,
 })

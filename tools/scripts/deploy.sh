@@ -8,6 +8,9 @@ if [ -z "$ENV" ]; then
   exit 1
 fi
 
+# Using this script requires you to first run aws configure sso and login
+# You must also update your default profile in ~/.aws/credentials for terraform
+
 VERSION=$(git rev-parse --short HEAD)
 REPO="211125431372.dkr.ecr.us-east-2.amazonaws.com"
 IMAGE="${REPO}/${ENV}-100002-zwerg-ecr:zwerg-${VERSION}"
