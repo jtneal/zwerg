@@ -28,23 +28,23 @@ provider "aws" {
 }
 
 module "vpc" {
-  source = "./modules/vpc"
+  source = "../modules/vpc"
   name   = "prod-100002-zwerg"
 }
 
 module "ecr" {
-  source = "./modules/ecr"
+  source = "../modules/ecr"
   name   = "prod-100002-zwerg"
 }
 
 module "security" {
-  source = "./modules/security"
+  source = "../modules/security"
   name   = "prod-100002-zwerg"
   vpc_id = module.vpc.vpc_id
 }
 
 module "lb" {
-  source            = "./modules/lb"
+  source            = "../modules/lb"
   name              = "prod-100002-zwerg"
   vpc_id            = module.vpc.vpc_id
   public_subnet_ids = module.vpc.public_subnet_ids
@@ -53,7 +53,7 @@ module "lb" {
 }
 
 module "ecs" {
-  source            = "./modules/ecs"
+  source            = "../modules/ecs"
   name              = "prod-100002-zwerg"
   short_name        = "zwerg"
   public_subnet_ids = module.vpc.public_subnet_ids
@@ -61,5 +61,5 @@ module "ecs" {
   security_group_id = module.security.ecs_security_group_id
   ecr_arn           = module.ecr.ecr_arn
   ecr_url           = module.ecr.ecr_url
-  app_version       = "zwerg-1090e50"
+  app_version       = "zwerg-3fcd835"
 }

@@ -31,7 +31,7 @@ import { TwitterComponent } from './sections/twitter.component';
   selector: 'app-root',
   styles: ``,
   template: `
-    <app-header></app-header>
+    <!-- <app-header></app-header>
     <app-promo></app-promo>
     <app-about></app-about>
     <app-sponsors></app-sponsors>
@@ -42,7 +42,7 @@ import { TwitterComponent } from './sections/twitter.component';
     <app-twitter></app-twitter>
     <app-instagram></app-instagram>
     <app-contact></app-contact>
-    <app-footer></app-footer>
+    <app-footer></app-footer> -->
   `,
 })
 export class AppComponent {}
