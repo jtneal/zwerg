@@ -36,6 +36,18 @@ import { MerchDto } from '@zwerg/common-dtos';
     p {
       margin: 0;
     }
+
+    .merch-designer {
+      text-align: center;
+
+      a {
+        display: inline;
+      }
+
+      img {
+        border: 1px solid #333;
+      }
+    }
   `,
   template: `
     <div class="container">
@@ -54,6 +66,12 @@ import { MerchDto } from '@zwerg/common-dtos';
         }
       </div>
       }
+      <h2>Merch Designer</h2>
+      <div class="merch-designer">
+        <a href="https://www.facebook.com/DNEDesignLLC" target="_blank">
+          <img alt="DNE Design LLC" src="/assets/images/dne-design-llc.png" />
+        </a>
+      </div>
     </div>
   `,
 })
