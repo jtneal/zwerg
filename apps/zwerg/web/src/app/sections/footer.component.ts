@@ -121,7 +121,7 @@ import { LinkService } from '../link.service';
         All Rights Reserved
         <span class="separator">&nbsp;|&nbsp;</span>
         Website by
-        <a href="https://necosoftwaresolutions.com" target="_blank">Neco Software Solutions</a>
+        <a href="https://jneal.com/codes" target="_blank">JNealCodes</a>
       </p>
     </footer>
   `,
