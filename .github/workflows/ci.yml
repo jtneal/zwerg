@@ -57,7 +57,7 @@ jobs:
         run: npx nx build zwerg-web
 
       - name: Fix deep links/refreshing
-        run: cp dist/apps/web/browser/index.html dist/apps/web/browser/404.html
+        run: cp dist/apps/zwerg/web/browser/index.html dist/apps/zwerg/web/browser/404.html
       
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -65,7 +65,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist/apps/web/browser
+          path: dist/apps/zwerg/web/browser
           
       - name: Deploy to GitHub Pages
         id: deployment
