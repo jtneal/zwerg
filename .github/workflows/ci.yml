@@ -54,7 +54,7 @@ jobs:
       - run: npm ci
       
       - name: Build for GitHub Pages
-        run: npx nx build web
+        run: npx nx build zwerg-web
 
       - name: Fix deep links/refreshing
         run: cp dist/apps/web/browser/index.html dist/apps/web/browser/404.html
