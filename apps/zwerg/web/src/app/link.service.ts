@@ -18,7 +18,6 @@ export class LinkService {
     { name: 'About', link: '#about' },
     { name: 'Charity', link: '#charity' },
     { name: 'Twitch', link: '#twitch' },
-    { name: 'Merch', link: '#merch' },
     { name: 'TikTok', link: '#tiktok' },
     { name: 'Twitter', link: '#twitter' },
     { name: 'Instagram', link: '#instagram' },

@@ -5,7 +5,6 @@ import { ContactComponent } from './sections/contact.component';
 import { FooterComponent } from './sections/footer.component';
 import { HeaderComponent } from './sections/header.component';
 import { InstagramComponent } from './sections/instagram.component';
-import { MerchComponent } from './sections/merch.component';
 import { PromoComponent } from './sections/promo.component';
 import { SponsorsComponent } from './sections/sponsors.component';
 import { TikTokComponent } from './sections/tiktok.component';
@@ -21,7 +20,6 @@ import { TwitterComponent } from './sections/twitter.component';
     FooterComponent,
     HeaderComponent,
     InstagramComponent,
-    MerchComponent,
     PromoComponent,
     SponsorsComponent,
     TikTokComponent,
@@ -37,7 +35,6 @@ import { TwitterComponent } from './sections/twitter.component';
     <app-sponsors></app-sponsors>
     <app-charity></app-charity>
     <app-twitch></app-twitch>
-    <app-merch></app-merch>
     <app-tiktok></app-tiktok>
     <app-twitter></app-twitter>
     <app-instagram></app-instagram>
